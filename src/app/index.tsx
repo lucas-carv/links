@@ -1,9 +1,5 @@
 import { Text } from "react-native";
 
 export default function Index() {
-  return (
-    <div>
-      <Text>Hello World</Text>
-    </div>
-  );
+  return <Text>Hello World</Text> 
 }
