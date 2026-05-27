@@ -1,10 +1,6 @@
-import { Text, View } from "react-native";
+import { registerRootComponent } from "expo";
 
-export default function Index() {
-  return (
-    <View>
-      <Text>Hello World</Text> 
-      <Text>Meu app</Text> 
-    </View>
-  )
-}
+import App from './App';
+
+registerRootComponent(App);
+
